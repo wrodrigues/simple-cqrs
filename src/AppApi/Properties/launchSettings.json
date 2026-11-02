@@ -1,0 +1,16 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": false,
+      "launchBrowser": true,
+      "launchUrl": "api/contatos",
+      "applicationUrl": "http://localhost:5164",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AppConnectionString": "Server=localhost,1433;Database=AppData;User Id=sa;Password=Mudar2025+;TrustServerCertificate=True;"
+      }
+    }
+  }
+}

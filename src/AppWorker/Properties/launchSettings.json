@@ -1,0 +1,16 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "AppWorker": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+        "MongoConnectionString": "mongodb://root:Mudar2025+@localhost:27017/app?authSource=admin",
+        "RABBITMQ_DEFAULT_HOST": "localhost",
+        "RABBITMQ_DEFAULT_USER": "root",
+        "RABBITMQ_DEFAULT_PASS": "Mudar2025+"
+      }
+    }
+  }
+}
